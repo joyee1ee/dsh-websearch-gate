@@ -8,10 +8,11 @@ without a restart.
 ## Install
 
 ```bash
-pnpm add dsh-websearch-gate --dir ~/.dsh/profiles/desktop
+dsh plugin --profile desktop add dsh-websearch-gate
 ```
 
-Then add the bundle to `~/.dsh/profiles/desktop/package.json`:
+Manual install: `pnpm add dsh-websearch-gate --dir ~/.dsh/profiles/desktop`, then add the
+bundle to `~/.dsh/profiles/desktop/package.json`:
 
 ```json
 {

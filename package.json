@@ -1,0 +1,48 @@
+{
+  "name": "dsh-websearch-toggle",
+  "version": "0.1.0",
+  "description": "Per-session switch that hides the web_search tool from the model in DeepSeek Harness.",
+  "license": "MIT",
+  "author": "TODO <you@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-websearch-toggle.git"
+  },
+  "homepage": "https://github.com/OWNER/dsh-websearch-toggle#readme",
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-websearch-toggle/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "web-search",
+    "privacy",
+    "agent"
+  ],
+  "type": "module",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

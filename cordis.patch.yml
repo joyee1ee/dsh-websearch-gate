@@ -1,0 +1,6 @@
+# dsh-websearch-toggle bundle patch: one host row. The browser half ships
+# through package.json `dsh.client` and the `./client` export.
+# `denyTools` defaults to [web_search]; add names (for example web_fetch) to hide more.
+- insert:
+    - id: websearch-toggle
+      name: dsh-websearch-toggle

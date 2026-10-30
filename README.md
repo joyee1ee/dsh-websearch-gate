@@ -1,4 +1,4 @@
-# dsh-websearch-toggle
+# dsh-websearch-gate
 
 A per-session switch for [DeepSeek Harness](https://deepseek.com) that hides the built-in
 `web_search` tool from the model. Turn it off in a session and the tool disappears from that
@@ -8,7 +8,7 @@ without a restart.
 ## Install
 
 ```bash
-pnpm add dsh-websearch-toggle --dir ~/.dsh/profiles/desktop
+pnpm add dsh-websearch-gate --dir ~/.dsh/profiles/desktop
 ```
 
 Then add the bundle to `~/.dsh/profiles/desktop/package.json`:
@@ -17,7 +17,7 @@ Then add the bundle to `~/.dsh/profiles/desktop/package.json`:
 {
   "dsh": {
     "profile": {
-      "bundles": ["...", "dsh-websearch-toggle"]
+      "bundles": ["...", "dsh-websearch-gate"]
     }
   }
 }
@@ -57,8 +57,8 @@ names when upgrading the host.
 
 ## Uninstall
 
-1. Remove `dsh-websearch-toggle` from `dsh.profile.bundles` in the profile `package.json`.
-2. `pnpm remove dsh-websearch-toggle --dir ~/.dsh/profiles/desktop`
+1. Remove `dsh-websearch-gate` from `dsh.profile.bundles` in the profile `package.json`.
+2. `pnpm remove dsh-websearch-gate --dir ~/.dsh/profiles/desktop`
 3. Delete `~/.dsh/websearch-toggle.json`.
 4. Restart DeepSeek Harness.
 

@@ -1,16 +1,16 @@
 {
-  "name": "dsh-websearch-toggle",
+  "name": "dsh-websearch-gate",
   "version": "0.1.0",
   "description": "Per-session switch that hides the web_search tool from the model in DeepSeek Harness.",
   "license": "MIT",
   "author": "joyee1ee",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joyee1ee/dsh-websearch-toggle.git"
+    "url": "git+https://github.com/joyee1ee/dsh-websearch-gate.git"
   },
-  "homepage": "https://github.com/joyee1ee/dsh-websearch-toggle#readme",
+  "homepage": "https://github.com/joyee1ee/dsh-websearch-gate#readme",
   "bugs": {
-    "url": "https://github.com/joyee1ee/dsh-websearch-toggle/issues"
+    "url": "https://github.com/joyee1ee/dsh-websearch-gate/issues"
   },
   "keywords": [
     "dsh",
